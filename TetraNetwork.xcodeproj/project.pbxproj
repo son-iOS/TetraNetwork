@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BDE08AA27D3AB2100F3498A /* TetraNetwork.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08A927D3AB2100F3498A /* TetraNetwork.docc */; };
+		6BDE08B027D3AB2100F3498A /* TetraNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BDE08A527D3AB2100F3498A /* TetraNetwork.framework */; };
+		6BDE08B527D3AB2100F3498A /* TetraNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08B427D3AB2100F3498A /* TetraNetworkTests.swift */; };
+		6BDE08BF27D3AB8C00F3498A /* TetraNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BDE08A827D3AB2100F3498A /* TetraNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BDE08E127D3ABB000F3498A /* TetraNetworkWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C027D3ABA200F3498A /* TetraNetworkWorker.swift */; };
+		6BDE08E227D3ABB000F3498A /* TetraRequestConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C227D3ABA200F3498A /* TetraRequestConfig.swift */; };
+		6BDE08E327D3ABB000F3498A /* TetraNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C327D3ABA200F3498A /* TetraNetworkRequest.swift */; };
+		6BDE08E427D3ABB000F3498A /* TetraNetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C427D3ABA200F3498A /* TetraNetworkError.swift */; };
+		6BDE08E527D3ABB000F3498A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C627D3ABA200F3498A /* StringExtension.swift */; };
+		6BDE08E627D3ABB000F3498A /* ErrorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C727D3ABA200F3498A /* ErrorExtension.swift */; };
+		6BDE08E727D3ABB000F3498A /* TetraNetworkBufferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08C927D3ABA200F3498A /* TetraNetworkBufferable.swift */; };
+		6BDE08E827D3ABB000F3498A /* TetraNetworkBuffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08CA27D3ABA200F3498A /* TetraNetworkBuffer.swift */; };
+		6BDE08E927D3ABB000F3498A /* Screen Recording 2021-11-24 at 12.01.58 AM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08CC27D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.01.58 AM.mov */; };
+		6BDE08EA27D3ABB000F3498A /* Preview.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08CD27D3ABAF00F3498A /* Preview.png */; };
+		6BDE08EB27D3ABB000F3498A /* Screen Recording 2021-11-23 at 10.57.41 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08CE27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.57.41 PM.mov */; };
+		6BDE08EC27D3ABB000F3498A /* Screen Shot 2021-11-23 at 11.01.13 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08CF27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 11.01.13 PM.png */; };
+		6BDE08ED27D3ABB000F3498A /* 20211124-001437-050.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D027D3ABAF00F3498A /* 20211124-001437-050.mp4 */; };
+		6BDE08EE27D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.49.20 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D127D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.49.20 PM.mov */; };
+		6BDE08EF27D3ABB000F3498A /* Inspector.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D227D3ABAF00F3498A /* Inspector.png */; };
+		6BDE08F027D3ABB000F3498A /* Screen Recording 2021-11-23 at 10.54.45 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D327D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.54.45 PM.mov */; };
+		6BDE08F127D3ABB000F3498A /* Screen Recording 2021-11-24 at 12.06.43 AM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D427D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.06.43 AM.mov */; };
+		6BDE08F227D3ABB000F3498A /* 20211122-004136-948.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D527D3ABAF00F3498A /* 20211122-004136-948.mp4 */; };
+		6BDE08F327D3ABB000F3498A /* HierarchyEntryMoveRegions.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D627D3ABAF00F3498A /* HierarchyEntryMoveRegions.png */; };
+		6BDE08F427D3ABB000F3498A /* HierarchyEntryMoveRegions.afphoto in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D727D3ABAF00F3498A /* HierarchyEntryMoveRegions.afphoto */; };
+		6BDE08F527D3ABB000F3498A /* Hierarchy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D827D3ABAF00F3498A /* Hierarchy.png */; };
+		6BDE08F627D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.36.55 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08D927D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.36.55 PM.mov */; };
+		6BDE08F727D3ABB000F3498A /* Screen Shot 2021-11-23 at 10.48.04 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08DA27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 10.48.04 PM.png */; };
+		6BDE08F827D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.57.03 PM.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08DB27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.57.03 PM.mov */; };
+		6BDE08F927D3ABB000F3498A /* Hightlight screenshot.afphoto in Resources */ = {isa = PBXBuildFile; fileRef = 6BDE08DC27D3ABAF00F3498A /* Hightlight screenshot.afphoto */; };
+		6BDE08FA27D3ABB000F3498A /* TetraNetworkCachable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08DE27D3ABAF00F3498A /* TetraNetworkCachable.swift */; };
+		6BDE08FB27D3ABB000F3498A /* TetraNetworkCacheData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08DF27D3ABAF00F3498A /* TetraNetworkCacheData.swift */; };
+		6BDE08FC27D3ABB000F3498A /* TetraNetworkCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDE08E027D3ABAF00F3498A /* TetraNetworkCache.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BDE08B127D3AB2100F3498A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BDE089C27D3AB2100F3498A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BDE08A427D3AB2100F3498A;
+			remoteInfo = TetraNetwork;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BDE08A527D3AB2100F3498A /* TetraNetwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TetraNetwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDE08A827D3AB2100F3498A /* TetraNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TetraNetwork.h; sourceTree = "<group>"; };
+		6BDE08A927D3AB2100F3498A /* TetraNetwork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = TetraNetwork.docc; sourceTree = "<group>"; };
+		6BDE08AF27D3AB2100F3498A /* TetraNetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetraNetworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BDE08B427D3AB2100F3498A /* TetraNetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TetraNetworkTests.swift; sourceTree = "<group>"; };
+		6BDE08C027D3ABA200F3498A /* TetraNetworkWorker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkWorker.swift; sourceTree = "<group>"; };
+		6BDE08C227D3ABA200F3498A /* TetraRequestConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraRequestConfig.swift; sourceTree = "<group>"; };
+		6BDE08C327D3ABA200F3498A /* TetraNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkRequest.swift; sourceTree = "<group>"; };
+		6BDE08C427D3ABA200F3498A /* TetraNetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkError.swift; sourceTree = "<group>"; };
+		6BDE08C627D3ABA200F3498A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		6BDE08C727D3ABA200F3498A /* ErrorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorExtension.swift; sourceTree = "<group>"; };
+		6BDE08C927D3ABA200F3498A /* TetraNetworkBufferable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkBufferable.swift; sourceTree = "<group>"; };
+		6BDE08CA27D3ABA200F3498A /* TetraNetworkBuffer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkBuffer.swift; sourceTree = "<group>"; };
+		6BDE08CC27D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.01.58 AM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-24 at 12.01.58 AM.mov"; sourceTree = "<group>"; };
+		6BDE08CD27D3ABAF00F3498A /* Preview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Preview.png; sourceTree = "<group>"; };
+		6BDE08CE27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.57.41 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-23 at 10.57.41 PM.mov"; sourceTree = "<group>"; };
+		6BDE08CF27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 11.01.13 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-11-23 at 11.01.13 PM.png"; sourceTree = "<group>"; };
+		6BDE08D027D3ABAF00F3498A /* 20211124-001437-050.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "20211124-001437-050.mp4"; sourceTree = "<group>"; };
+		6BDE08D127D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.49.20 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-23 at 11.49.20 PM.mov"; sourceTree = "<group>"; };
+		6BDE08D227D3ABAF00F3498A /* Inspector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Inspector.png; sourceTree = "<group>"; };
+		6BDE08D327D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.54.45 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-23 at 10.54.45 PM.mov"; sourceTree = "<group>"; };
+		6BDE08D427D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.06.43 AM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-24 at 12.06.43 AM.mov"; sourceTree = "<group>"; };
+		6BDE08D527D3ABAF00F3498A /* 20211122-004136-948.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "20211122-004136-948.mp4"; sourceTree = "<group>"; };
+		6BDE08D627D3ABAF00F3498A /* HierarchyEntryMoveRegions.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HierarchyEntryMoveRegions.png; sourceTree = "<group>"; };
+		6BDE08D727D3ABAF00F3498A /* HierarchyEntryMoveRegions.afphoto */ = {isa = PBXFileReference; lastKnownFileType = file; path = HierarchyEntryMoveRegions.afphoto; sourceTree = "<group>"; };
+		6BDE08D827D3ABAF00F3498A /* Hierarchy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hierarchy.png; sourceTree = "<group>"; };
+		6BDE08D927D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.36.55 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-23 at 11.36.55 PM.mov"; sourceTree = "<group>"; };
+		6BDE08DA27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 10.48.04 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2021-11-23 at 10.48.04 PM.png"; sourceTree = "<group>"; };
+		6BDE08DB27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.57.03 PM.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "Screen Recording 2021-11-23 at 11.57.03 PM.mov"; sourceTree = "<group>"; };
+		6BDE08DC27D3ABAF00F3498A /* Hightlight screenshot.afphoto */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hightlight screenshot.afphoto"; sourceTree = "<group>"; };
+		6BDE08DE27D3ABAF00F3498A /* TetraNetworkCachable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkCachable.swift; sourceTree = "<group>"; };
+		6BDE08DF27D3ABAF00F3498A /* TetraNetworkCacheData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkCacheData.swift; sourceTree = "<group>"; };
+		6BDE08E027D3ABAF00F3498A /* TetraNetworkCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TetraNetworkCache.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BDE08A227D3AB2100F3498A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE08AC27D3AB2100F3498A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE08B027D3AB2100F3498A /* TetraNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BDE089B27D3AB2100F3498A = {
+			isa = PBXGroup;
+			children = (
+				6BDE08A727D3AB2100F3498A /* TetraNetwork */,
+				6BDE08B327D3AB2100F3498A /* TetraNetworkTests */,
+				6BDE08A627D3AB2100F3498A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BDE08A627D3AB2100F3498A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08A527D3AB2100F3498A /* TetraNetwork.framework */,
+				6BDE08AF27D3AB2100F3498A /* TetraNetworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BDE08A727D3AB2100F3498A /* TetraNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08C827D3ABA200F3498A /* Buffer */,
+				6BDE08DD27D3ABAF00F3498A /* Cache */,
+				6BDE08CB27D3ABAF00F3498A /* CalypteUI */,
+				6BDE08C527D3ABA200F3498A /* FoundationExtensions */,
+				6BDE08C127D3ABA200F3498A /* Request */,
+				6BDE08C027D3ABA200F3498A /* TetraNetworkWorker.swift */,
+				6BDE08A827D3AB2100F3498A /* TetraNetwork.h */,
+				6BDE08A927D3AB2100F3498A /* TetraNetwork.docc */,
+			);
+			path = TetraNetwork;
+			sourceTree = "<group>";
+		};
+		6BDE08B327D3AB2100F3498A /* TetraNetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08B427D3AB2100F3498A /* TetraNetworkTests.swift */,
+			);
+			path = TetraNetworkTests;
+			sourceTree = "<group>";
+		};
+		6BDE08C127D3ABA200F3498A /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08C227D3ABA200F3498A /* TetraRequestConfig.swift */,
+				6BDE08C327D3ABA200F3498A /* TetraNetworkRequest.swift */,
+				6BDE08C427D3ABA200F3498A /* TetraNetworkError.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		6BDE08C527D3ABA200F3498A /* FoundationExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08C627D3ABA200F3498A /* StringExtension.swift */,
+				6BDE08C727D3ABA200F3498A /* ErrorExtension.swift */,
+			);
+			path = FoundationExtensions;
+			sourceTree = "<group>";
+		};
+		6BDE08C827D3ABA200F3498A /* Buffer */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08C927D3ABA200F3498A /* TetraNetworkBufferable.swift */,
+				6BDE08CA27D3ABA200F3498A /* TetraNetworkBuffer.swift */,
+			);
+			path = Buffer;
+			sourceTree = "<group>";
+		};
+		6BDE08CB27D3ABAF00F3498A /* CalypteUI */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08CC27D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.01.58 AM.mov */,
+				6BDE08CD27D3ABAF00F3498A /* Preview.png */,
+				6BDE08CE27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.57.41 PM.mov */,
+				6BDE08CF27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 11.01.13 PM.png */,
+				6BDE08D027D3ABAF00F3498A /* 20211124-001437-050.mp4 */,
+				6BDE08D127D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.49.20 PM.mov */,
+				6BDE08D227D3ABAF00F3498A /* Inspector.png */,
+				6BDE08D327D3ABAF00F3498A /* Screen Recording 2021-11-23 at 10.54.45 PM.mov */,
+				6BDE08D427D3ABAF00F3498A /* Screen Recording 2021-11-24 at 12.06.43 AM.mov */,
+				6BDE08D527D3ABAF00F3498A /* 20211122-004136-948.mp4 */,
+				6BDE08D627D3ABAF00F3498A /* HierarchyEntryMoveRegions.png */,
+				6BDE08D727D3ABAF00F3498A /* HierarchyEntryMoveRegions.afphoto */,
+				6BDE08D827D3ABAF00F3498A /* Hierarchy.png */,
+				6BDE08D927D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.36.55 PM.mov */,
+				6BDE08DA27D3ABAF00F3498A /* Screen Shot 2021-11-23 at 10.48.04 PM.png */,
+				6BDE08DB27D3ABAF00F3498A /* Screen Recording 2021-11-23 at 11.57.03 PM.mov */,
+				6BDE08DC27D3ABAF00F3498A /* Hightlight screenshot.afphoto */,
+			);
+			path = CalypteUI;
+			sourceTree = "<group>";
+		};
+		6BDE08DD27D3ABAF00F3498A /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				6BDE08DE27D3ABAF00F3498A /* TetraNetworkCachable.swift */,
+				6BDE08DF27D3ABAF00F3498A /* TetraNetworkCacheData.swift */,
+				6BDE08E027D3ABAF00F3498A /* TetraNetworkCache.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6BDE08A027D3AB2100F3498A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE08BF27D3AB8C00F3498A /* TetraNetwork.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6BDE08A427D3AB2100F3498A /* TetraNetwork */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDE08B927D3AB2100F3498A /* Build configuration list for PBXNativeTarget "TetraNetwork" */;
+			buildPhases = (
+				6BDE08A027D3AB2100F3498A /* Headers */,
+				6BDE08A127D3AB2100F3498A /* Sources */,
+				6BDE08A227D3AB2100F3498A /* Frameworks */,
+				6BDE08A327D3AB2100F3498A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TetraNetwork;
+			productName = TetraNetwork;
+			productReference = 6BDE08A527D3AB2100F3498A /* TetraNetwork.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6BDE08AE27D3AB2100F3498A /* TetraNetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BDE08BC27D3AB2100F3498A /* Build configuration list for PBXNativeTarget "TetraNetworkTests" */;
+			buildPhases = (
+				6BDE08AB27D3AB2100F3498A /* Sources */,
+				6BDE08AC27D3AB2100F3498A /* Frameworks */,
+				6BDE08AD27D3AB2100F3498A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BDE08B227D3AB2100F3498A /* PBXTargetDependency */,
+			);
+			name = TetraNetworkTests;
+			productName = TetraNetworkTests;
+			productReference = 6BDE08AF27D3AB2100F3498A /* TetraNetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BDE089C27D3AB2100F3498A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6BDE08A427D3AB2100F3498A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6BDE08AE27D3AB2100F3498A = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6BDE089F27D3AB2100F3498A /* Build configuration list for PBXProject "TetraNetwork" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BDE089B27D3AB2100F3498A;
+			productRefGroup = 6BDE08A627D3AB2100F3498A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BDE08A427D3AB2100F3498A /* TetraNetwork */,
+				6BDE08AE27D3AB2100F3498A /* TetraNetworkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BDE08A327D3AB2100F3498A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE08F827D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.57.03 PM.mov in Resources */,
+				6BDE08EE27D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.49.20 PM.mov in Resources */,
+				6BDE08F127D3ABB000F3498A /* Screen Recording 2021-11-24 at 12.06.43 AM.mov in Resources */,
+				6BDE08F327D3ABB000F3498A /* HierarchyEntryMoveRegions.png in Resources */,
+				6BDE08EA27D3ABB000F3498A /* Preview.png in Resources */,
+				6BDE08F627D3ABB000F3498A /* Screen Recording 2021-11-23 at 11.36.55 PM.mov in Resources */,
+				6BDE08F027D3ABB000F3498A /* Screen Recording 2021-11-23 at 10.54.45 PM.mov in Resources */,
+				6BDE08F427D3ABB000F3498A /* HierarchyEntryMoveRegions.afphoto in Resources */,
+				6BDE08EF27D3ABB000F3498A /* Inspector.png in Resources */,
+				6BDE08F527D3ABB000F3498A /* Hierarchy.png in Resources */,
+				6BDE08ED27D3ABB000F3498A /* 20211124-001437-050.mp4 in Resources */,
+				6BDE08F727D3ABB000F3498A /* Screen Shot 2021-11-23 at 10.48.04 PM.png in Resources */,
+				6BDE08F227D3ABB000F3498A /* 20211122-004136-948.mp4 in Resources */,
+				6BDE08EC27D3ABB000F3498A /* Screen Shot 2021-11-23 at 11.01.13 PM.png in Resources */,
+				6BDE08F927D3ABB000F3498A /* Hightlight screenshot.afphoto in Resources */,
+				6BDE08E927D3ABB000F3498A /* Screen Recording 2021-11-24 at 12.01.58 AM.mov in Resources */,
+				6BDE08EB27D3ABB000F3498A /* Screen Recording 2021-11-23 at 10.57.41 PM.mov in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE08AD27D3AB2100F3498A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BDE08A127D3AB2100F3498A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE08FA27D3ABB000F3498A /* TetraNetworkCachable.swift in Sources */,
+				6BDE08E427D3ABB000F3498A /* TetraNetworkError.swift in Sources */,
+				6BDE08AA27D3AB2100F3498A /* TetraNetwork.docc in Sources */,
+				6BDE08FB27D3ABB000F3498A /* TetraNetworkCacheData.swift in Sources */,
+				6BDE08FC27D3ABB000F3498A /* TetraNetworkCache.swift in Sources */,
+				6BDE08E527D3ABB000F3498A /* StringExtension.swift in Sources */,
+				6BDE08E127D3ABB000F3498A /* TetraNetworkWorker.swift in Sources */,
+				6BDE08E227D3ABB000F3498A /* TetraRequestConfig.swift in Sources */,
+				6BDE08E827D3ABB000F3498A /* TetraNetworkBuffer.swift in Sources */,
+				6BDE08E627D3ABB000F3498A /* ErrorExtension.swift in Sources */,
+				6BDE08E327D3ABB000F3498A /* TetraNetworkRequest.swift in Sources */,
+				6BDE08E727D3ABB000F3498A /* TetraNetworkBufferable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BDE08AB27D3AB2100F3498A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BDE08B527D3AB2100F3498A /* TetraNetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BDE08B227D3AB2100F3498A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BDE08A427D3AB2100F3498A /* TetraNetwork */;
+			targetProxy = 6BDE08B127D3AB2100F3498A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6BDE08B727D3AB2100F3498A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BDE08B827D3AB2100F3498A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6BDE08BA27D3AB2100F3498A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9BZ4Y44A69;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sseo.TetraNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDE08BB27D3AB2100F3498A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9BZ4Y44A69;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sseo.TetraNetwork;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BDE08BD27D3AB2100F3498A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZ4Y44A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sseo.TetraNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BDE08BE27D3AB2100F3498A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9BZ4Y44A69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sseo.TetraNetworkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BDE089F27D3AB2100F3498A /* Build configuration list for PBXProject "TetraNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE08B727D3AB2100F3498A /* Debug */,
+				6BDE08B827D3AB2100F3498A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE08B927D3AB2100F3498A /* Build configuration list for PBXNativeTarget "TetraNetwork" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE08BA27D3AB2100F3498A /* Debug */,
+				6BDE08BB27D3AB2100F3498A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BDE08BC27D3AB2100F3498A /* Build configuration list for PBXNativeTarget "TetraNetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BDE08BD27D3AB2100F3498A /* Debug */,
+				6BDE08BE27D3AB2100F3498A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6BDE089C27D3AB2100F3498A /* Project object */;
+}
