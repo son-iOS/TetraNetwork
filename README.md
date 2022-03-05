@@ -4,18 +4,18 @@
 TetraNetwork does provide in-memory cache capability. It also buffers pending requests, meaning if a request is waiting for the response and `TetraNetwork` receives another request that has the same hash, it will not send the subsequent request but simply waits for the reponse from the first one and returns it to all pending requests.<br/>
 TetraNetwork support the old-style callback, Combine, as well as async method.
 
-## Usage.
+## Usage
 
 #### Create a request class
 `TetraNetwork` uses `TetraNetworkRequest` objects to make network calls, so comform to that protocol in order to create requests.
 `TetraNetwork` also provide `DefaultTetraNetworkRequest` as a default implementation of `TetraNetworkRequest`. You can either use this default implementation or implement your own conformance. Note that `DefaultTetraNetworkRequest` also conforms to `TetraNetworkCachable` and `TetraNetworkBufferable` (these will be explained later). However, the hash of this implementation works by combining all the info of the request including the body. So if you're request total space (memory volume) is big and you intend to use buffering and cache, consider implement your own request in order to save memory usage.<br/>
 In the example below, I choose to use `DefaultTetraNetworkRequest`:
 ```Swift
-        let request = DefaultTetraNetworkRequest(baseUrl: "https://my-domain.com",
-                                                 paths: ["v2", "abc", "def"],
-                                                 method: .GET,
-                                                 headers: ["headerKey": 123456],
-                                                 queries: ["key1": 1, "key2": "2"])
+let request = DefaultTetraNetworkRequest(baseUrl: "https://my-domain.com",
+                                         paths: ["v2", "abc", "def"],
+                                         method: .GET,
+                                         headers: ["headerKey": 123456],
+                                         queries: ["key1": 1, "key2": "2"])
 ```
 
 #### Error handling
